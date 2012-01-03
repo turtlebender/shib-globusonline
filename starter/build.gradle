@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.mortbay.jetty:jetty-embedded:6.1.21'
+}
